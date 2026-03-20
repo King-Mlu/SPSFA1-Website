@@ -2,30 +2,29 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPSFA WEBSITE</title>
+    <title>SPSFA Football Hub</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <section class="sub-header">
     <nav>
         <a href="index.html"><img src="images/SPSFA initials logo .png"/></a>
         <div class="nav-links" id="navLinks">
-        <i class="fa-regular fa-rectangle-xmark"onclick="hideMenu()"></i>
+        <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PROGRAMS</a></li>
-                <li><a href="">EVENTS</a></li>
-                <li><a href="">GALLERY</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul> 
         </div>
-        <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 
 <h1>Programs & Services</h1>
@@ -79,13 +78,12 @@
     <h4>SPSFA</h4>
     <p>Professionalising primary school football in Soweto.<br>Building the next generation of champions on and off<br> the pitch.</p>
     <div class="icons">
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-tiktok"></i>
-        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
     </div>
-    <p> Made In Soweto with <i class="fa-regular fa-heart-o"></i> by SPSFA</p>
+    <p> Made In Soweto with <i class="fa fa-heart-o"></i> by SPSFA</p>
 </section>
 
 
@@ -99,10 +97,10 @@
 
     var navLinks = document.getElementById("navLinks");
     function showMenu(){
-        navLinks.style.right = "0;"
+        navLinks.style.right = "0";
     }
      function hideMenu(){
-        navLinks.style.right = "-200px;"
+        navLinks.style.right = "-200px";
     }  
 
 </script>
@@ -112,3 +110,6 @@
 
 
 </html>
+
+
+
