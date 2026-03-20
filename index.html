@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSFA WEBSITE</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/SPSFA initials logo .png"/></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-regular fa-rectangle-xmark"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul> 
+        </div>
+        <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Shaping the Chapions of Tomorrow</h1>
+    <p>The Soweto Primary School Football Association is dedicated to professionalising grassroots football,<br> fostering talent and building strong communities through sport</p>
+    <a href="" class="hero-btn">Join the Association</a>
+    <a href="" class="btn-hero">learn more</a>
+</div>
+
+</section>
+
+<!------Programs------>
+<section class="programs">
+    <h1>Our Progams</h1>
+    <p>A taste of what we offer!</p>
+    
+    <div class="row">
+        <div class="programs-col">
+            <h3>Tournaments</h3>
+            <p>Competitive leagues and cups for schools</p>
+        </div>
+        <div class="programs-col">
+            <h3>Coaching Dev</h3>
+            <p>Expert training for school coaches</p>
+        </div>
+        <div class="programs-col">
+            <h3>Tutoring Pro</h3>
+            <p>After school academic support for school pupils</p>
+        </div>
+        <div class="programs-col">
+            <h3>Annual Events</h3>
+            <p>Year-round football activties</p>
+        </div>
+        <div class="programs-col">
+            <h3>Talent ID</h3>
+            <p>Pathway to professional academies</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="body">
+    <div class="mission-text">
+    <h1>Our Mission in Soweto</h1>
+    <p>We believe that every child deserves access to professional-level fooball training and organized competition.<br> Our focus goes beyond just playing a game; we instill discipline teamwork, and leadership.</p>
+    <p>By uniting primary schools across Soweto, we create a structured environment <br> where young talent can be identified, nurtured, and celebrated.</p>
+    </div>
+
+    <div class="message-box" >
+        <div class="layer">
+            <h1>Buliding Character</h1>
+            <p1>Sportsmanship and education go hand in hand at SPSFA.</p1>
+        </div>
+    </div>
+     
+
+</section>
+
+<!--------- affiliation form -------->
+<section class="aft">
+    <h1>Join Hands With Us And Help Build<br> A Better Tomorrow And Better Leaders.</h1>
+    <a href=""class= "hero-btn">AFFILIATE</a>
+</section>
+
+<!------------ footer ----------->
+
+<section class="footer">
+    <h4>SPSFA</h4>
+    <p>Professionalising primary school football in Soweto.<br>Building the next generation of champions on and off<br> the pitch.</p>
+    <div class="icons">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p> Made In Soweto with <i class="fa-regular fa-heart-o"></i> by SPSFA</p>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0;"
+    }
+     function hideMenu(){
+        navLinks.style.right = "-200px;"
+    }  
+
+</script>
+
+
+</body>
+
+
+</html>

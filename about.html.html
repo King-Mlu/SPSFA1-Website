@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSFA WEBSITE</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/SPSFA initials logo .png"/></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-regular fa-rectangle-xmark"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROGRAMS</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="">GALLERY</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul> 
+        </div>
+        <i class="fa-regular fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+<h1>About SPSFA</h1>
+<p>Professionalising primary school football and<br> empowering communities across Soweto.</p>
+
+</section>
+
+<!-------------about us content--------------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>The Impact of Professionalisation</h1>
+            <p>For decades, grassroots football in schools has <br>been informal. The SPSFA brings a professional<br> structure to primary school football, ensuring that<br> talented children receive standardised training<br> from a young age.</p>
+            <p>By introducing regulated leagues, certified<br> coaching, and proper facilities access, we are<br> dramatically increasing the chances for our youth<br> to succeed not only in professional fooball but in<br> life through discipline and teamwork.</p>
+        </div>
+        <div class="about-col">
+            <img src="images/GALLERY4.webp">
+        </div>
+    </div>
+</section>
+
+<section class="statements">
+
+    <div class="row">
+        <div class="mission-col">
+            <i class="fa-solid fa-bullseye"></i>
+            <h1>Our Mission</h1>
+            <p>To provide a structured, competitive, and <br>developmental football environment for<br> primary school learners in Soweto. We strive<br> to empower coaches, build infrastructure, <br>and create pathways for young athletes.</p>
+        </div>
+        <div class="vision-col">
+            <i class="fa-light fa-eye"></i>
+            <h1>Our Vision</h1>
+            <p>To be the premier grassroots football<br> organisation in South Africa, recognised for<br> producing well-rounded student-atheletes<br> and elevating the standard of sports<br> administration in schools.</p>
+        </div>
+    </div>
+</section>
+
+<section class="members">
+    <h1> Leadership Team</h1>
+    <p>Meet the team</p>
+
+    <div class="row">
+        <div class="members-col">
+            <img src="images/istockphoto-545442016-612x612.jpg">
+            <h1>Lizo Mlungwana</h1>
+            <p3>President</p3>
+        </div>
+        <div class="members-col">
+            <img src="images/istockphoto-545442016-612x612.jpg">
+            <h1>Nhlakanipho Molotshwa</h1>
+            <p3>Treasurer</p3>
+        </div>
+        <div class="members-col">
+            <img src="images/istockphoto-545442016-612x612.jpg">
+            <h1>Njabulo Zwane</h1>
+            <p3>Secretary</p3>
+        </div>
+    </div> 
+</section>
+
+
+
+
+
+<!-------------footer------------->
+<section class="footer">
+    <h4>SPSFA</h4>
+    <p>Professionalising primary school football in Soweto.<br>Building the next generation of champions on and off<br> the pitch.</p>
+    <div class="icons">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p> Made In Soweto with <i class="fa-regular fa-heart-o"></i> by SPSFA</p>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0;"
+    }
+     function hideMenu(){
+        navLinks.style.right = "-200px;"
+    }  
+
+</script>
+
+
+</body>
+
+
+</html>
