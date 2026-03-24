@@ -261,7 +261,7 @@ nav .fa{
     text-align: center;
 }
 
-/*--- Affiliation form ---*/
+/*--- Affiliation form btn ---*/
 .aft{
     margin: 100px auto;
     width: 80%;
@@ -501,3 +501,42 @@ nav .fa{
     border: 1px solid #ccc;
 }
 
+/*----- affiliation form -----*/
+
+.main-panel{
+    flex-basis: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px 10px 50px 10px;
+    border-radius: 10px;
+}
+.main-panel h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+.main-panel img{
+    width: 150px;
+    background: rgba(0, 0, 0, 0.922);
+}
+.main-panel .row{
+    display: flex;
+}
+.form-group{
+    margin-top: 15px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+.main-panel input{
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    
+}
+@media screen and (max-width:700px){
+    -ms-flex-wrap: wrap;
+}
