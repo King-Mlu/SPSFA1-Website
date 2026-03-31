@@ -299,12 +299,12 @@ nav .fa{
     text-align: center;
 }
 
-.footer h4{
+/*-----.footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
     
-}
+}----*/
 .icons .fa{
     color: forestgreen;
     margin: 0 13px;
@@ -314,7 +314,9 @@ nav .fa{
 .fa-heart-o{
     color: forestgreen;
 }
-
+.footer img{
+    width: 60px;
+}
 /*-------- about page -------*/
 
 .sub-header{
